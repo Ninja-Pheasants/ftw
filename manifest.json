@@ -1,8 +1,11 @@
 {
   "manifest_version": 2,
   "name": "FTW - FarTed Web",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "icons": { "128": "ftw_icon-128.png" },
+  "permissions": [
+    "tabs", "http://*/*"
+  ],
   "content_scripts": [
     {
       "matches": ["http://*/*"],
