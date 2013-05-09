@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "FTW - FarTed Web",
+  "version": "1.0.0",
+  "icons": { "128": "ftw_icon-128.png" },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*"],
+      "js": ["jquery.min.js","fartscroll.js","extension.js"]
+    }
+  ]
+}
